@@ -1,0 +1,178 @@
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:4px !important; 
+    padding-bottom:0 !important;
+    height: 48px;
+}
+
+.navbar {min-height:48px !important;
+    border-bottom: solid lightblue 3px;
+       }
+
+#firstContainer{
+    padding-top:70px;
+}
+
+
+body{
+    background: lightgrey;
+}
+
+
+h1{
+    font-size:72px;
+}
+
+.subheadings{
+    font-size:58px;
+    padding-left:100px;
+    margin-top:75px;
+    background:black;
+    vertical-align: middle;
+    line-height: 2; 
+    color:#E8E8E8 ;
+}
+
+#profilePic{    
+    width:70%;
+    display:inline-block;
+    
+    margin-right: 50px;
+    margin-left: 75px;
+    vertical-align: middle;
+}
+
+#introText{
+    padding-top:70px;
+    margin-top:0px;
+    font-size: 15px;
+    display:inline-block;
+}
+
+.projectsList{
+    margin-top:75px;
+}
+
+.projectImages{
+    width:256px;
+    height: 256px;
+    display:inline-block;
+    margin-left:100px;
+    vertical-align: middle; 
+    
+}
+
+.indiProjects{
+    margin-top: 10px;
+    border:2px solid #B8B8B8;
+}
+
+.projectText{
+    font-size: 18px;
+}
+
+
+.img-circle{
+    border-radius: 25%;
+    border: 8px solid darkgray;
+   }
+
+
+.subskills{
+    padding-top:25px;
+    font-size:44px;
+    width:100%;
+}
+  
+ul{
+    list-style: none;
+}
+   
+li{
+    font-size:24px;
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+.projectIcons{
+    margin-left:15px;
+    margin-right:10px;
+}
+
+.projectsList > li{
+    margin-top: 25px;
+    border:2px solid #99CCCC;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+#messageBox{
+    width: inherit;
+    height: 125px;
+    margin-top:25px;
+}
+
+.contactBox{
+    font-size: 18px;
+    color: #2980b9;
+    background: #B8B8B8 ;
+    padding: 13px 13px 13px 20px;
+    width: 100%;
+    
+    box-sizing: border-box;
+    border:3px solid rgba(0, 0, 0, 0);
+}
+
+#submitBtn{
+    background-color:#9999CC;
+    float: right;
+    margin-top: 25px;
+    /*width:300px;
+    height: 100px;*/
+}
+
+.findOutMore, .hideThisButton{
+    float:right;
+    background-color: #B8B8B8;
+    margin:70px 75px 15px;
+    width: 200px;
+    height: 50px;
+    font-size:18px;
+    color:#282828 ;
+}
+
+button:hover{
+    border: solid 2px black;
+   background-color: darkgray;
+   color:black;
+}
+
+
+input::-webkit-input-placeholder {
+color: 	#606060 !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: 	#606060 !important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: 	#606060 !important;  
+}
+ 
+input:-ms-input-placeholder {  
+color: 	#606060 !important;  
+}
+
+.expansion{
+    border: solid 2px grey;
+    background-color:#B8B8B8; 
+  margin-left:-2px;
+  margin-right: -2px;
+}
+
+i{
+    margin-right:7px;    
+}
